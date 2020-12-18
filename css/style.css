@@ -26,6 +26,27 @@ body {
 }
 
 /* Глобальное/ */
+/* Общие */
+.button__text {
+  display: inline-block;
+  border: 2px solid #212121;
+  padding: 15px;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #212121;
+}
+.button__text--a {
+  background-color: #00897b;
+  border: 2px solid #00897b;
+  color: white;
+}
+.button__text--lw {
+  border: 2px solid #00897b;
+}
+
+/* Общие/ */
 /* Хэдер*/
 .header {
   background-color: white;
@@ -278,18 +299,121 @@ body {
   padding-bottom: 45px;
 }
 
-.button__text {
-  display: inline-block;
-  border: 2px solid #212121;
-  padding: 15px;
-  font-size: 20px;
+/* Наши услуги/ */
+/* Последние работы */
+.latestWork {
+  background-color: white;
+  padding: 128px 0 136px 0;
+}
+
+.latestWork__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.latestWork__titleBlock {
+  text-align: center;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #212121;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 110px;
+}
+
+.latestWork__title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.latestWork__subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 620px;
+}
+
+.latestWork__navbar {
+  margin-bottom: 120px;
+}
+
+.latestWork__navbar-row {
+  padding: 0 0 0 -20px;
+  display: flex;
+  justify-content: center;
+}
+.latestWork__navbar-row .button {
+  margin: 0 0 0 20px;
+}
+
+.latestWork__image-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 -30px 0;
+}
+
+.latestWork__item {
+  flex: 1 1 33.333%;
+  margin: 0 0 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.latestWork__item--bg1 {
+  background: url("../../img/latestWork/01.png") no-repeat;
+  min-height: 370px;
+}
+.latestWork__item--bg2 {
+  background: url("../../img/latestWork/02.png") no-repeat;
+}
+.latestWork__item--bg3 {
+  background: url("../../img/latestWork/03.png") no-repeat;
+}
+.latestWork__item--bg4 {
+  background: url("../../img/latestWork/04.png") no-repeat;
+  min-height: 370px;
+}
+.latestWork__item--bg5 {
+  background: url("../../img/latestWork/05.png") no-repeat;
+}
+.latestWork__item--bg6 {
+  background: url("../../img/latestWork/06.png") no-repeat;
+}
+
+.latestWork__button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 100px 0 0 0;
+}
+.latestWork__button span {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.latestWork__itemColumnText {
   line-height: 22px;
   font-weight: 600;
   letter-spacing: 0.05em;
-  color: #212121;
+  color: #ffffff;
+  text-align: center;
 }
 
-/* Наши услуги */
+.latestWork__itemColumnTitle {
+  font-size: 20px;
+}
+
+.latestWork__itemColumnSubtitle {
+  font-size: 15px;
+}
+
+.latestWork__itemColumnText--dn {
+  display: none;
+}
+
+/* Последние работы/ */
 /* Контентная часть/ */
 /* Футер */
 .footer {
