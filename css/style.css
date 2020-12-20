@@ -46,6 +46,28 @@ body {
   border: 2px solid #00897b;
 }
 
+.titleBlock {
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #212121;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 620px;
+}
+
 /* Общие/ */
 /* Хэдер*/
 .header {
@@ -166,25 +188,12 @@ body {
   align-items: center;
 }
 
-.about-us__title-block {
-  letter-spacing: 0.05em;
-  color: #212121;
-  line-height: 22px;
+.about-us__titleBlock {
   margin-bottom: 125px;
 }
 
 .about-us__title {
-  text-align: center;
-  font-size: 30px;
-  font-weight: 700;
   margin-bottom: 36px;
-}
-
-.about-us__subtitle {
-  text-align: center;
-  max-width: 622px;
-  font-size: 15px;
-  font-weight: 400;
 }
 
 .about-us__row {
@@ -234,23 +243,11 @@ body {
 }
 
 .ourServices__titleBlock {
-  text-align: center;
-  line-height: 22px;
-  letter-spacing: 0.05em;
-  color: #212121;
   padding: 170px 0 105px 0;
 }
 
 .ourServices__title {
-  font-size: 30px;
-  font-weight: 700;
   padding-bottom: 35px;
-}
-
-.ourServices__subtitle {
-  font-size: 15px;
-  font-weight: 400;
-  max-width: 620px;
 }
 
 .ourServices__row {
@@ -312,26 +309,11 @@ body {
 }
 
 .latestWork__titleBlock {
-  text-align: center;
-  line-height: 22px;
-  letter-spacing: 0.05em;
-  color: #212121;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-bottom: 110px;
 }
 
 .latestWork__title {
-  font-size: 30px;
-  font-weight: 700;
   margin-bottom: 35px;
-}
-
-.latestWork__subtitle {
-  font-size: 15px;
-  font-weight: 400;
-  max-width: 620px;
 }
 
 .latestWork__navbar {
@@ -425,27 +407,12 @@ body {
   flex-direction: column;
 }
 
-.pricingPlan__text {
-  line-height: 22px;
-  letter-spacing: 0.05em;
-  color: #212121;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.pricingPlan__titleBlock {
   margin-bottom: 130px;
 }
 
 .pricingPlan__title {
-  font-size: 30px;
-  font-weight: 700;
   margin-bottom: 30px;
-}
-
-.pricingPlan__subtitle {
-  font-size: 15px;
-  font-weight: 400;
-  max-width: 620px;
 }
 
 .pricingPlan__row {
