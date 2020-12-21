@@ -460,6 +460,95 @@ body{
 }
 
 /* Тарифные планы */
+/* Наша команда */
+.ourTeam {
+}
+.ourTeam__column {
+	display: flex;
+	flex-direction: column;
+}
+.ourTeam__text {
+	padding: 120px 0;
+}
+.ourTeam__title {
+}
+.ourTeam__subtitle {
+}
+.ourTeam__row {
+	display: flex;
+	padding: 0 0 0 -15px;
+}
+.ourTeam__item {
+	flex: 1 1 33.333%;
+	margin: 0 0 0 15px;
+}
+.ourTeam__itemColumn {
+	display: flex;
+	flex-direction: column;
+}
+.ourTeam__fotoBlock {
+	flex: 1 1 370px;
+}
+.ourTeam__foto {
+	width: 100%;
+}
+.ourTeam__info {
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	color: #212121;
+	text-align: center;
+}
+.ourTeam__initials {
+	font-size: 20px;
+	font-weight: 600;
+}
+.ourTeam__position {
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+.ourTeam__socialMediasRow {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 200px;
+}
+.ourTeam__links{
+	display: flex;
+	font-size: 30px;
+	line-height: 22px;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	color: #00897b;
+	max-width: 275px;
+	padding: 0 0 0 -12.5px;
+	&--active{
+		color: #3949ab;;
+	}
+	a{
+		color: inherit;
+	}
+}
+.ourTeam__facebookIcon {
+}
+.ourTeam__twitterIcon {
+}
+.ourTeam__personalMessageIcon {
+}
+.ourTeam__browseIcon {
+}
+.ourTeam__icon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 50px;
+	min-height: 50px;
+	background-color: #f0f1f1;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 0 0 12.5px;
+}
+
+/* Наша команда/ */
 /* Контентная часть/ */
 /* Футер */
 .footer {
