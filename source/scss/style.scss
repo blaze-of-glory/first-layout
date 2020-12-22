@@ -501,6 +501,78 @@ body{
 	margin: 0 0 0 12.5px;
 }
 /* Наша команда/ */
+/* Блог */
+.blog {
+	background-color: #e4fdf9;
+	padding: 125px 0;
+}
+.blog__column {
+	display: flex;
+	flex-direction: column;
+}
+.blog__titleBlock {
+	margin-bottom: 125px;
+}
+.blog__itemRow {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 125px;
+}
+.blog__item {
+	flex: 0 1 100%;
+	display: flex;
+}
+.blog__imageBlock {
+	flex: 1 1 570px;
+	margin-right: 30px;
+}
+.blog__image {
+	width: 100%;
+}
+.blog__articleBlock {
+	margin: 60px 160px 0 0;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	font-weight: 600;
+}
+.blog__articleTitle {
+	font-size: 25px;
+	color: #212121;
+	padding-bottom: 30px;
+	&:hover{
+		color: #00897b;
+		cursor: pointer;
+	}
+}
+.blog__tags {
+	 .blog__dateLink,.blog__categoryLink {
+		font-size: 17px;
+		color: #212121;
+	}
+	padding-bottom: 30px;
+}
+.blog__categoryLink{
+	padding-left: 40px;
+}
+.blog__articleTextPreview {
+	font-size: 15px;
+	font-weight: 400;
+	color: #212121;
+	max-width: 460px;
+}
+.blog__button{
+	display: flex;
+	justify-content: center;
+}
+.blog__buttonLink {
+	display:inline-block;
+	text-align: center;
+	background-color: #00897b;
+	border: 2px solid #00897b;
+	color: white;
+
+}
+/* Блог/ */
 /* Контентная часть/ */
 /* Футер */
 .footer {
