@@ -664,10 +664,108 @@ body {
 }
 
 /* Блог/ */
+/* Связь с нами */
+.contactUs {
+  background-color: #202020;
+  padding: 130px 0 115px 0;
+}
+
+.contactUs__body {
+  max-width: 1035px;
+  margin: 0 auto;
+}
+
+.contactUs__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactUs__titleBlock {
+  color: #ffffff;
+  margin-bottom: 105px;
+}
+
+.contactUs__infoRow {
+  display: flex;
+  margin-bottom: 85px;
+}
+
+.contactUs__item {
+  flex: 1 1 33.333%;
+}
+
+.contactUs__itemColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactUs__itemIconBlock {
+  flex: 1 0 105px;
+  border-radius: 50%;
+  background-color: #3949ab;
+  width: 105px;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.contactUs__descriptionBlock {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contactUs__formRow {
+  display: flex;
+  justify-content: center;
+}
+
+.contactUs__form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contactUs__formInput {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #212121;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 35px 0 35px 20px;
+  margin: 0 0 20px 20px;
+}
+
+.contactUs__inputName {
+  flex: 0 1 48%;
+}
+
+.contactUs__inputEmail {
+  flex: 0 1 48%;
+}
+
+.contactUs__messageArea {
+  flex: 0 1 100%;
+}
+
+.contactUs__submitButton {
+  padding: 30px 80px 30px 80px;
+  border-radius: 10px;
+  margin-left: 79%;
+}
+
+/* Связь с нами/ */
 /* Контентная часть/ */
 /* Футер */
 .footer {
-  background-color: red;
+  background-color: #ffffff;
 }
 
 .footer__row {
