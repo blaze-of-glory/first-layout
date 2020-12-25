@@ -7,6 +7,8 @@
 body{
 	background-color: white;
 	font-family: 'Open Sans', sans-serif;
+	line-height: 22px;
+	letter-spacing: 0.05em;
 	color: #212121;
 }
 .wrapper{
@@ -44,9 +46,6 @@ body{
 	}
 }
 .titleBlock{
-	line-height: 22px;
-	letter-spacing: 0.05em;
-	color: #212121;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -65,9 +64,6 @@ body{
 
 /* Общие/ */
 /* Хэдер*/
-.header {
-	background-color: white;
-}
 .header__row {
 	height: 121px;
 	display: flex;
@@ -77,14 +73,13 @@ body{
 }
 .header__image{
 	font-size: 25px;
-	line-height: 22px;
 	font-weight: 700;
+	letter-spacing: normal;
 }
 .header__item {
 	color: #212121;
 	padding: 0 0 0 35px;
 	font-size: 20px;
-	line-height: 22px;
 	font-weight: 600;
 	letter-spacing: 0.05em;
 }
@@ -116,8 +111,6 @@ body{
 	display: flex;
 	flex-direction: column;
 	color: #ffffff;
-	line-height: 22px;
-	letter-spacing: 0.05em;
 	align-items: center;
 }
 .main-banner__title {
@@ -185,9 +178,6 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	color: #212121;
-	letter-spacing: 0.05em;
-	line-height: 22px;
 	padding: 0 0 0 72.5px;
 	flex: 1 1 33.33%;
 }
@@ -236,7 +226,6 @@ body{
 	background-color: white;
 	text-align: center;
 	padding: 50px;
-	letter-spacing: 0.05em;
 	margin: 0 0 20px 20px;
 }
 .active{
@@ -253,8 +242,8 @@ body{
 }
 .ourServices__itemsTitle {
 	font-size: 20px;
-	line-height: 22px;
 	font-weight: 600;
+	padding-bottom: 20px;
 }
 .ourServices__itemsSubtitle {
 	max-width: 270px;
@@ -323,9 +312,7 @@ body{
 	}
 }
 .latestWork__itemColumnText {
-	line-height: 22px;
 	font-weight: 600;
-	letter-spacing: 0.05em;
 	color: #ffffff;
 	text-align: center;
 }
@@ -376,9 +363,7 @@ body{
 	align-items: center;
 }
 .pricingPlan__itemHeader {
-	line-height: 22px;
 	font-weight: 400;
-	letter-spacing: 0.05em;
 	color: #ffffff;
 	background: url("../../img/pricingPlan/01.png") no-repeat;
 	min-width: 370px;
@@ -411,10 +396,8 @@ body{
 
 	p{
 		font-size: 17px;
-		line-height: 22px;
 		font-weight: 300;
 		letter-spacing: 0.05em;
-		color: #212121;
 		text-align: center;
 		border-bottom: 1px grey solid;
 		width: 180px;
@@ -454,9 +437,6 @@ body{
 	width: 100%;
 }
 .ourTeam__info {
-	line-height: 22px;
-	letter-spacing: 0.05em;
-	color: #212121;
 	text-align: center;
 }
 .ourTeam__initials {
@@ -476,9 +456,7 @@ body{
 .ourTeam__links{
 	display: flex;
 	font-size: 30px;
-	line-height: 22px;
 	font-weight: 400;
-	letter-spacing: 0.05em;
 	color: #00897b;
 	max-width: 275px;
 	padding: 0 0 0 -12.5px;
@@ -531,13 +509,10 @@ body{
 }
 .blog__articleBlock {
 	margin: 60px 160px 0 0;
-	line-height: 22px;
-	letter-spacing: 0.05em;
 	font-weight: 600;
 }
 .blog__articleTitle {
 	font-size: 25px;
-	color: #212121;
 	padding-bottom: 30px;
 	&:hover{
 		color: #00897b;
@@ -557,7 +532,6 @@ body{
 .blog__articleTextPreview {
 	font-size: 15px;
 	font-weight: 400;
-	color: #212121;
 	max-width: 460px;
 }
 .blog__button{
@@ -637,7 +611,6 @@ body{
 	line-height: 28px;
 	font-weight: 600;
 	letter-spacing: 0.05em;
-	color: #212121;
 	background-color: #ffffff;
 	border-radius: 10px;
 	padding: 35px 0 35px 20px;
@@ -674,7 +647,6 @@ body{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 20px;
-	line-height: 22px;
 	letter-spacing: 0.05em;
 }
 /* Футер/ */
