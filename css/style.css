@@ -34,8 +34,8 @@ body {
   border: 2px solid #212121;
   padding: 15px;
   font-size: 20px;
-  line-height: 22px;
   font-weight: 600;
+  line-height: 22px;
   letter-spacing: 0.05em;
   color: #212121;
 }
@@ -204,11 +204,13 @@ body {
 
 .about-us-item__image {
   flex: 0 0 63px;
+  margin-bottom: 34px;
 }
 
 .about-us-item__title {
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 21px;
 }
 
 .about-us-item__subtitle {
@@ -665,6 +667,9 @@ body {
 
 .contactUs__item {
   flex: 1 1 33.333%;
+}
+.contactUs__item a {
+  color: #ffffff;
 }
 
 .contactUs__itemColumn {
