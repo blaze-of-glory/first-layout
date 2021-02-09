@@ -7,7 +7,7 @@
     <meta name="title" content="Fast and high-quality website development">
     <meta name="author" content="Mikhail Petrunenko">
     <meta name="theme-color" content="#ffffff">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>Web development project</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/6b8851dce6.js" crossorigin="anonymous"></script>
@@ -20,486 +20,541 @@
                 <div class="header__logo">
                     <div class="header__image">Your Logo</div>
                 </div>
-                <nav class="header__navigation">
-                    <a href="#" class="header__item">Home</a>
-                    <a href="#" class="header__item">About</a>
-                    <a href="#" class="header__item">Servicing</a>
-                    <a href="#" class="header__item">Portfolio</a>
-                    <a href="#" class="header__item">Blog</a>
-                    <a href="#" class="header__item">Contact us</a>
-                </nav>
+                <div class="header__hamburger-menu">
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav class="header__navigation">
+                        <ul class="menu header__item header__navigationRow">
+                            <li><a class="menu__item" href="#">Home</a></li>
+                            <li><a class="menu__item" href="#">About</a></li>
+                            <li><a class="menu__item" href="#">Servicing</a></li>
+                            <li><a class="menu__item" href="#">Portfolio</a></li>
+                            <li><a class="menu__item" href="#">Blog</a></li>
+                            <li><a class="menu__item" href="#">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
     <main>
-    <div class="content">
-        <section class="main-banner">
-            <div class="main-banner__body">
-                <div class="main-banner__row">
-                    <div class="main-banner__heading">
-                        <h1 class="main-banner__title">Web development project</h1>
-                        <h2 class="main-banner__subtitle">Very suitable to support all web development projects</h2>
-                    </div>
-                    <div class="main-banner__btns">
-                        <div class="btns__row">
-                            <a href="#"><span class="btns__item_1 btns__item">OUR SERVICES</span></a>
-                            <a href="#"><span class="btns__item_2 btns__item">HIRE IS NOW</span></a>
+        <div class="content">
+            <section class="main-banner">
+                <div class="main-banner__body">
+                    <div class="main-banner__row">
+                        <div class="main-banner__heading">
+                            <h1 class="main-banner__title">Web development project</h1>
+                            <h2 class="main-banner__subtitle">Very suitable to support all web development projects</h2>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="about-us">
-            <div class="about-us__body">
-                <div class="about-us__column">
-                    <header class="about-us__titleBlock titleBlock">
-                        <h1 class="about-us__title title">About Us</h1>
-                        <h2 class="about-us__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                        </h2>
-                    </header>
-                    <div class="about-us__row">
-                        <div class="about-us__item">
-                            <div class="about-us-item__image"><img src="img/Icons/icon_1.png" alt="icon_1"></div>
-                            <div class="about-us-item__title">Awesome Icons</div>
-                            <div class="about-us-item__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit, sed do eiusmod tempor
-                            </div>
-                        </div>
-                        <div class="about-us__item">
-                            <div class="about-us-item__image"><img src="img/Icons/icon_2.png" alt="icon_2"></div>
-                            <div class="about-us-item__title">One Page</div>
-                            <div class="about-us-item__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit, sed do eiusmod tempor
-                            </div>
-                        </div>
-                        <div class="about-us__item">
-                            <div class="about-us-item__image"><img src="img/Icons/icon_3.png" alt="icon_3"></div>
-                            <div class="about-us-item__title">Fully Responsive</div>
-                            <div class="about-us-item__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit, sed do eiusmod tempor
+                        <div class="main-banner__btns">
+                            <div class="btns__row">
+                                <a href="#"><span class="btns__item_1 btns__item">OUR SERVICES</span></a>
+                                <a href="#"><span class="btns__item_2 btns__item">HIRE IS NOW</span></a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="ourServices">
-            <div class="container">
-                <div class="ourServices__column">
-                    <header class="ourServices__titleBlock titleBlock">
-                        <h1 class="ourServices__title title">Our Services</h1>
-                        <h2 class="ourServices__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                        </h2>
-                    </header>
-                    <div class="ourServices__row">
-                        <div class="ourServices__item active">
-                            <img src="img/Icons/OurServices/os_1.png" alt="Ooops!!!" class="ourServices__itemsImage">
-                            <div class="ourServices__itemsTitle">Research</div>
-                            <div class="ourServices__itemsSubtitle">At vero eos et accusamus et iusto odio dignissimos
-                                ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
+            </section>
+            <section class="about-us">
+                <div class="about-us__body">
+                    <div class="about-us__column">
+                        <header class="about-us__titleBlock titleBlock">
+                            <h1 class="about-us__title title">About Us</h1>
+                            <h2 class="about-us__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </h2>
+                        </header>
+                        <div class="about-us__row">
+                            <div class="about-us__item">
+                                <div class="about-us-item__image"><img src="img/Icons/icon_1.png" alt="icon_1"></div>
+                                <div class="about-us-item__title">Awesome Icons</div>
+                                <div class="about-us-item__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit, sed do eiusmod tempor
+                                </div>
                             </div>
-                            <a href="#" class="button"><span class="button__text">READ MORE</span></a>
-                        </div>
-                        <div class="ourServices__item">
-                            <img src="img/Icons/OurServices/os_2.png" alt="Ooops!!!" class="ourServices__itemsImage">
-                            <div class="ourServices__itemsTitle">Portfolio</div>
-                            <div class="ourServices__itemsSubtitle">At vero eos et accusamus et iusto odio dignissimos
-                                ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
+                            <div class="about-us__item">
+                                <div class="about-us-item__image"><img src="img/Icons/icon_2.png" alt="icon_2"></div>
+                                <div class="about-us-item__title">One Page</div>
+                                <div class="about-us-item__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit, sed do eiusmod tempor
+                                </div>
                             </div>
-                            <a href="#" class="button"><span class="button__text">READ MORE</span></a>
-                        </div>
-                        <div class="ourServices__item">
-                            <img src="img/Icons/OurServices/os_2.png" alt="Ooops!!!" class="ourServices__itemsImage">
-                            <div class="ourServices__itemsTitle">Support</div>
-                            <div class="ourServices__itemsSubtitle">At vero eos et accusamus et iusto odio dignissimos
-                                ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
+                            <div class="about-us__item">
+                                <div class="about-us-item__image"><img src="img/Icons/icon_3.png" alt="icon_3"></div>
+                                <div class="about-us-item__title">Fully Responsive</div>
+                                <div class="about-us-item__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit, sed do eiusmod tempor
+                                </div>
                             </div>
-                            <a href="#" class="button"><span class="button__text">READ MORE</span></a>
-                        </div>
-                        <div class="ourServices__item">
-                            <img src="img/Icons/OurServices/os_2.png" alt="Ooops!!!" class="ourServices__itemsImage">
-                            <div class="ourServices__itemsTitle">Documentation</div>
-                            <div class="ourServices__itemsSubtitle">At vero eos et accusamus et iusto odio dignissimos
-                                ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
-                            </div>
-                            <a href="#" class="button"><span class="button__text">READ MORE</span></a>
-                        </div>
-                        <div class="ourServices__item">
-                            <img src="img/Icons/OurServices/os_2.png" alt="Ooops!!!" class="ourServices__itemsImage">
-                            <div class="ourServices__itemsTitle">Development</div>
-                            <div class="ourServices__itemsSubtitle">At vero eos et accusamus et iusto odio dignissimos
-                                ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
-                            </div>
-                            <a href="#" class="button"><span class="button__text">READ MORE</span></a>
-                        </div>
-                        <div class="ourServices__item">
-                            <img src="img/Icons/OurServices/os_2.png" alt="Ooops!!!" class="ourServices__itemsImage">
-                            <div class="ourServices__itemsTitle">Design</div>
-                            <div class="ourServices__itemsSubtitle">At vero eos et accusamus et iusto odio dignissimos
-                                ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
-                            </div>
-                            <a href="#" class="button"><span class="button__text">READ MORE</span></a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="latestWork">
-            <div class="container">
-                <div class="latestWork__column">
-                    <header class="latestWork__titleBlock titleBlock">
-                        <h1 class="latestWork__title title">Latest Works</h1>
-                        <h2 class="latestWork__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                        </h2>
-                    </header>
-                    <div class="latestWork__navbar">
-                        <div class="latestWork__navbar-row">
-                            <a href="#" class="button"><span class="button__text button__text--a">ALL</span></a>
-                            <a href="#" class="button"><span class="button__text button__text--lw">WEB DESIGN</span></a>
-                            <a href="#" class="button"><span
-                                    class="button__text button__text--lw">UI/UX DESIGN</span></a>
-                            <a href="#" class="button"><span class="button__text button__text--lw">MOCKUPS</span></a>
+            </section>
+            <section class="ourServices">
+                <div class="container">
+                    <div class="ourServices__column">
+                        <header class="ourServices__titleBlock titleBlock">
+                            <h1 class="ourServices__title title">Our Services</h1>
+                            <h2 class="ourServices__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </h2>
+                        </header>
+                        <div class="ourServices__row">
+                            <div class="ourServices__item activated">
+                                <img src="img/Icons/OurServices/os_1.png" alt="Ooops!!!"
+                                     class="ourServices__itemsImage">
+                                <div class="ourServices__itemsTitle">Research</div>
+                                <div class="ourServices__itemsSubtitle">At vero eos et accusamus et iusto odio
+                                    dignissimos
+                                    ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
+                                </div>
+                                <a href="#" class="button"><span class="button__text">READ MORE</span></a>
+                            </div>
+                            <div class="ourServices__item">
+                                <img src="img/Icons/OurServices/os_2.png" alt="Ooops!!!"
+                                     class="ourServices__itemsImage">
+                                <div class="ourServices__itemsTitle">Portfolio</div>
+                                <div class="ourServices__itemsSubtitle">At vero eos et accusamus et iusto odio
+                                    dignissimos
+                                    ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
+                                </div>
+                                <a href="#" class="button"><span class="button__text">READ MORE</span></a>
+                            </div>
+                            <div class="ourServices__item">
+                                <img src="img/Icons/OurServices/os_2.png" alt="Ooops!!!"
+                                     class="ourServices__itemsImage">
+                                <div class="ourServices__itemsTitle">Support</div>
+                                <div class="ourServices__itemsSubtitle">At vero eos et accusamus et iusto odio
+                                    dignissimos
+                                    ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
+                                </div>
+                                <a href="#" class="button"><span class="button__text">READ MORE</span></a>
+                            </div>
+                            <div class="ourServices__item">
+                                <img src="img/Icons/OurServices/os_2.png" alt="Ooops!!!"
+                                     class="ourServices__itemsImage">
+                                <div class="ourServices__itemsTitle">Documentation</div>
+                                <div class="ourServices__itemsSubtitle">At vero eos et accusamus et iusto odio
+                                    dignissimos
+                                    ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
+                                </div>
+                                <a href="#" class="button"><span class="button__text">READ MORE</span></a>
+                            </div>
+                            <div class="ourServices__item">
+                                <img src="img/Icons/OurServices/os_2.png" alt="Ooops!!!"
+                                     class="ourServices__itemsImage">
+                                <div class="ourServices__itemsTitle">Development</div>
+                                <div class="ourServices__itemsSubtitle">At vero eos et accusamus et iusto odio
+                                    dignissimos
+                                    ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
+                                </div>
+                                <a href="#" class="button"><span class="button__text">READ MORE</span></a>
+                            </div>
+                            <div class="ourServices__item">
+                                <img src="img/Icons/OurServices/os_2.png" alt="Ooops!!!"
+                                     class="ourServices__itemsImage">
+                                <div class="ourServices__itemsTitle">Design</div>
+                                <div class="ourServices__itemsSubtitle">At vero eos et accusamus et iusto odio
+                                    dignissimos
+                                    ducimus qui blanditiis praesentium voluptatum iti atque corrupti quos.
+                                </div>
+                                <a href="#" class="button"><span class="button__text">READ MORE</span></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="latestWork__image-row">
-                        <div class="latestWork__item latestWork__item--bg1">
-                            <div class="latestWork__item-column">
-                                <div class="latestWork__itemColumnText">
-                                    <div class="latestWork__itemColumnTitle">Hand Watch</div>
-                                    <div class="latestWork__itemColumnSubtitle">ui/ux design</div>
-                                </div>
+                </div>
+            </section>
+            <section class="latestWork">
+                <div class="container">
+                    <div class="latestWork__column">
+                        <header class="latestWork__titleBlock titleBlock">
+                            <h1 class="latestWork__title title">Latest Works</h1>
+                            <h2 class="latestWork__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                            </h2>
+                        </header>
+                        <div class="latestWork__navbar">
+                            <div class="latestWork__navbar-row">
+                                <a href="#" class="button"><span class="button__text button__text--a">ALL</span></a>
+                                <a href="#" class="button"><span class="button__text button__text--lw">WEB DESIGN</span></a>
+                                <a href="#" class="button"><span
+                                        class="button__text button__text--lw">UI/UX DESIGN</span></a>
+                                <a href="#" class="button"><span
+                                        class="button__text button__text--lw">MOCKUPS</span></a>
                             </div>
                         </div>
-                        <div class="latestWork__item latestWork__item--bg2">
-                            <div class="latestWork__item-column">
-                                <div class="latestWork__itemColumnText latestWork__itemColumnText--dn">
-                                    <div class="latestWork__itemColumnTitle">Hand Watch</div>
-                                    <div class="latestWork__itemColumnSubtitle">ui/ux design</div>
+                        <div class="latestWork__image-row">
+                            <div class="latestWork__item latestWork__item--bg1">
+                                <div class="latestWork__item-column">
+                                    <div class="latestWork__itemColumnText">
+                                        <div class="latestWork__itemColumnTitle">Hand Watch</div>
+                                        <div class="latestWork__itemColumnSubtitle">ui/ux design</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="latestWork__item latestWork__item--bg3">
-                            <div class="latestWork__item-column">
-                                <div class="latestWork__itemColumnText latestWork__itemColumnText--dn">
-                                    <div class="latestWork__itemColumnTitle">Hand Watch</div>
-                                    <div class="latestWork__itemColumnSubtitle">ui/ux design</div>
+                            <div class="latestWork__item latestWork__item--bg2">
+                                <div class="latestWork__item-column">
+                                    <div class="latestWork__itemColumnText latestWork__itemColumnText--dn">
+                                        <div class="latestWork__itemColumnTitle">Hand Watch</div>
+                                        <div class="latestWork__itemColumnSubtitle">ui/ux design</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="latestWork__item latestWork__item--bg4">
-                            <div class="latestWork__item-column">
-                                <div class="latestWork__itemColumnText latestWork__itemColumnText--dn">
-                                    <div class="latestWork__itemColumnTitle">Hand Watch</div>
-                                    <div class="latestWork__itemColumnSubtitle">ui/ux design</div>
+                            <div class="latestWork__item latestWork__item--bg3">
+                                <div class="latestWork__item-column">
+                                    <div class="latestWork__itemColumnText latestWork__itemColumnText--dn">
+                                        <div class="latestWork__itemColumnTitle">Hand Watch</div>
+                                        <div class="latestWork__itemColumnSubtitle">ui/ux design</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="latestWork__item latestWork__item--bg5">
-                            <div class="latestWork__item-column">
-                                <div class="latestWork__itemColumnText latestWork__itemColumnText--dn">
-                                    <div class="latestWork__itemColumnTitle">Hand Watch</div>
-                                    <div class="latestWork__itemColumnSubtitle">ui/ux design</div>
+                            <div class="latestWork__item latestWork__item--bg4">
+                                <div class="latestWork__item-column">
+                                    <div class="latestWork__itemColumnText latestWork__itemColumnText--dn">
+                                        <div class="latestWork__itemColumnTitle">Hand Watch</div>
+                                        <div class="latestWork__itemColumnSubtitle">ui/ux design</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="latestWork__item latestWork__item--bg6">
-                            <div class="latestWork__item-column">
-                                <div class="latestWork__itemColumnText latestWork__itemColumnText--dn">
-                                    <div class="latestWork__itemColumnTitle">Hand Watch</div>
-                                    <div class="latestWork__itemColumnSubtitle">ui/ux design</div>
+                            <div class="latestWork__item latestWork__item--bg5">
+                                <div class="latestWork__item-column">
+                                    <div class="latestWork__itemColumnText latestWork__itemColumnText--dn">
+                                        <div class="latestWork__itemColumnTitle">Hand Watch</div>
+                                        <div class="latestWork__itemColumnSubtitle">ui/ux design</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="latestWork__button">
-                            <a href="#" class="button "><span class="button__text button__text--a">VIEW ALL</span></a>
-                        </div>
+                            <div class="latestWork__item latestWork__item--bg6">
+                                <div class="latestWork__item-column">
+                                    <div class="latestWork__itemColumnText latestWork__itemColumnText--dn">
+                                        <div class="latestWork__itemColumnTitle">Hand Watch</div>
+                                        <div class="latestWork__itemColumnSubtitle">ui/ux design</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latestWork__button">
+                                <a href="#" class="button "><span
+                                        class="button__text button__text--a">VIEW ALL</span></a>
+                            </div>
 
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="pricingPlan">
-            <div class="container">
-                <div class="pricingPlan__column">
-                    <header class="pricingPlan__titleBlock titleBlock">
-                        <h1 class="pricingPlan__title title">Pricing Plan</h1>
-                        <h2 class="pricingPlan__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                        </h2>
-                    </header>
-                    <div class="pricingPlan__cards">
-                        <div class="pricingPlan__row">
-                            <div class="pricingPlan__item">
-                                <div class="pricingPlan__itemColumn">
-                                    <div class="pricingPlan__itemHeader">
-                                        <div class="pricingPlan__tariff">Free Trail</div>
-                                        <div class="pricingPlan__cost"><span
-                                                class="pricingPlan__currency">$</span>00<span
-                                                class="pricingPlan__period">per month</span></div>
-                                    </div>
-                                    <div class="pricingPlan__itemBody">
-                                        <p class="pricingPlan__trail pricingPlan__services">30 Free Trail</p>
-                                        <p class="pricingPlan__projects pricingPlan__services">5 Free Projects</p>
-                                        <p class="pricingPlan__php pricingPlan__services">PHP 5 Enabled</p>
-                                        <p class="pricingPlan__support pricingPlan__services">24/7 Suports</p>
-                                    </div>
-                                    <div class="pricingPlan__button">
-                                        <a href="#" class="button "><span class="button__text">Order Now</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pricingPlan__item pricingPlan__item--a">
-                                <div class="pricingPlan__itemColumn">
-                                    <div class="pricingPlan__itemHeader">
-                                        <div class="pricingPlan__tariff">Basic</div>
-                                        <div class="pricingPlan__cost"><span
-                                                class="pricingPlan__currency">$</span>50<span
-                                                class="pricingPlan__period">per month</span></div>
-                                    </div>
-                                    <div class="pricingPlan__itemBody">
-                                        <p class="pricingPlan__trail pricingPlan__services">30 Free Trail</p>
-                                        <p class="pricingPlan__projects pricingPlan__services">5 Free Projects</p>
-                                        <p class="pricingPlan__php pricingPlan__services">PHP 5 Enabled</p>
-                                        <p class="pricingPlan__support pricingPlan__services">24/7 Suports</p>
-                                    </div>
-                                    <div class="pricingPlan__button">
-                                        <a href="#" class="button "><span
-                                                class="button__text button__text--a">Order Now</span></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pricingPlan__item">
-                                <div class="pricingPlan__itemColumn">
-                                    <div class="pricingPlan__itemHeader">
-                                        <div class="pricingPlan__tariff">Ultimates</div>
-                                        <div class="pricingPlan__cost"><span
-                                                class="pricingPlan__currency">$</span>99<span
-                                                class="pricingPlan__period">per month</span></div>
-                                    </div>
-                                    <div class="pricingPlan__itemBody">
-                                        <p class="pricingPlan__trail pricingPlan__services">30 Free Trail</p>
-                                        <p class="pricingPlan__projects pricingPlan__services">5 Free Projects</p>
-                                        <p class="pricingPlan__php pricingPlan__services">PHP 5 Enabled</p>
-                                        <p class="pricingPlan__support pricingPlan__services">24/7 Suports</p>
-                                    </div>
-                                    <div class="pricingPlan__button">
-                                        <a href="#" class="button "><span class="button__text">Order Now</span></a>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="ourTeam">
-            <div class="container">
-                <div class="ourTeam__column">
-                    <header class="ourTeam__text titleBlock">
-                        <h1 class="ourTeam__title title">Our Team Member</h1>
-                        <h2 class="ourTeam__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                        </h2>
-                    </header>
-                    <div class="ourTeam__row">
-                        <div class="ourTeam__item">
-                            <div class="ourTeam__itemColumn">
-                                <div class="ourTeam__fotoBlock">
-                                    <img class="ourTeam__foto" src="img/ourTeam/01.png" alt="Oops!">
-                                </div>
-                                <div class="ourTeam__info">
-                                    <div class="ourTeam__initials">John Doe</div>
-                                    <div class="ourTeam__position">General Manager</div>
-                                </div>
-                                <div class="ourTeam__socialMediasRow">
-                                    <div class="ourTeam__links">
-                                        <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
-                                                class="fab fa-facebook-square ourTeam__facebookIcon ourTeam__links--active"></i></span></a>
-                                        <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
-                                                class="fab fa-twitter ourTeam__twitterIcon"></i></span></a>
-                                        <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
-                                                class="fas fa-comments ourTeam__personalMessageIcon"></i></span></a>
-                                        <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
-                                                class="fas fa-basketball-ball ourTeam__browseIcon"></i></span></a>
+            </section>
+            <section class="pricingPlan">
+                <div class="container">
+                    <div class="pricingPlan__column">
+                        <header class="pricingPlan__titleBlock titleBlock">
+                            <h1 class="pricingPlan__title title">Pricing Plan</h1>
+                            <h2 class="pricingPlan__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
+                                elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                veniam.
+                            </h2>
+                        </header>
+                        <div class="pricingPlan__cards">
+                            <div class="pricingPlan__row">
+                                <div class="pricingPlan__item">
+                                    <div class="pricingPlan__itemColumn">
+                                        <div class="pricingPlan__itemHeader">
+                                            <div class="pricingPlan__tariff">Free Trail</div>
+                                            <div class="pricingPlan__cost"><span
+                                                    class="pricingPlan__currency">$</span>00<span
+                                                    class="pricingPlan__period">per month</span></div>
+                                        </div>
+                                        <div class="pricingPlan__itemBody">
+                                            <p class="pricingPlan__trail pricingPlan__services">30 Free Trail</p>
+                                            <p class="pricingPlan__projects pricingPlan__services">5 Free Projects</p>
+                                            <p class="pricingPlan__php pricingPlan__services">PHP 5 Enabled</p>
+                                            <p class="pricingPlan__support pricingPlan__services">24/7 Suports</p>
+                                        </div>
+                                        <div class="pricingPlan__button">
+                                            <a href="#" class="button "><span class="button__text">Order Now</span></a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="ourTeam__item">
-                            <div class="ourTeam__itemColumn">
-                                <div class="ourTeam__fotoBlock">
-                                    <img class="ourTeam__foto" src="img/ourTeam/02.png" alt="Oops!">
-                                </div>
-                                <div class="ourTeam__info">
-                                    <div class="ourTeam__initials">Alexa Biru</div>
-                                    <div class="ourTeam__position">Office Director</div>
-                                </div>
-                                <div class="ourTeam__socialMediasRow">
-                                    <div class="ourTeam__links">
-                                        <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
-                                                class="fab fa-facebook-square ourTeam__facebookIcon"></i></span></a>
-                                        <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
-                                                class="fab fa-twitter ourTeam__twitterIcon"></i></span></a>
-                                        <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
-                                                class="fas fa-comments ourTeam__personalMessageIcon"></i></span></a>
-                                        <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
-                                                class="fas fa-basketball-ball ourTeam__browseIcon"></i></span></a>
+                                <div class="pricingPlan__item pricingPlan__item--a">
+                                    <div class="pricingPlan__itemColumn">
+                                        <div class="pricingPlan__itemHeader">
+                                            <div class="pricingPlan__tariff">Basic</div>
+                                            <div class="pricingPlan__cost"><span
+                                                    class="pricingPlan__currency">$</span>50<span
+                                                    class="pricingPlan__period">per month</span></div>
+                                        </div>
+                                        <div class="pricingPlan__itemBody">
+                                            <p class="pricingPlan__trail pricingPlan__services">30 Free Trail</p>
+                                            <p class="pricingPlan__projects pricingPlan__services">5 Free Projects</p>
+                                            <p class="pricingPlan__php pricingPlan__services">PHP 5 Enabled</p>
+                                            <p class="pricingPlan__support pricingPlan__services">24/7 Suports</p>
+                                        </div>
+                                        <div class="pricingPlan__button">
+                                            <a href="#" class="button "><span
+                                                    class="button__text button__text--a">Order Now</span></a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="ourTeam__item">
-                            <div class="ourTeam__itemColumn">
-                                <div class="ourTeam__fotoBlock">
-                                    <img class="ourTeam__foto" src="img/ourTeam/03.png" alt="Oops!">
-                                </div>
-                                <div class="ourTeam__info">
-                                    <div class="ourTeam__initials">Ronobir sing</div>
-                                    <div class="ourTeam__position">Admin</div>
-                                </div>
-                                <div class="ourTeam__socialMediasRow">
-                                    <div class="ourTeam__links">
-                                        <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
-                                                class="fab fa-facebook-square ourTeam__facebookIcon"></i></span></a>
-                                        <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
-                                                class="fab fa-twitter ourTeam__twitterIcon"></i></span></a>
-                                        <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
-                                                class="fas fa-comments ourTeam__personalMessageIcon"></i></span></a>
-                                        <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
-                                                class="fas fa-basketball-ball ourTeam__browseIcon"></i></span></a>
+                                <div class="pricingPlan__item">
+                                    <div class="pricingPlan__itemColumn">
+                                        <div class="pricingPlan__itemHeader">
+                                            <div class="pricingPlan__tariff">Ultimates</div>
+                                            <div class="pricingPlan__cost"><span
+                                                    class="pricingPlan__currency">$</span>99<span
+                                                    class="pricingPlan__period">per month</span></div>
+                                        </div>
+                                        <div class="pricingPlan__itemBody">
+                                            <p class="pricingPlan__trail pricingPlan__services">30 Free Trail</p>
+                                            <p class="pricingPlan__projects pricingPlan__services">5 Free Projects</p>
+                                            <p class="pricingPlan__php pricingPlan__services">PHP 5 Enabled</p>
+                                            <p class="pricingPlan__support pricingPlan__services">24/7 Suports</p>
+                                        </div>
+                                        <div class="pricingPlan__button">
+                                            <a href="#" class="button "><span class="button__text">Order Now</span></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="blog">
-            <div class="container">
-                <div class="blog__column">
-                    <header class="blog__titleBlock titleBlock">
-                        <h1 class="blog__title title">Blog</h1>
-                        <h2 class="blog__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tem
-                            por incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
-                    </header>
-                    <div class="blog__itemRow">
-                        <div class="blog__item">
-                            <div class="blog__imageBlock">
-                                <img src="img/blog/01.png" alt="Oopps!" class="blog__image">
-                            </div>
-                            <div class="blog__articleBlock">
-                                <div class="blog__articleTitle">SEO Quis Vestibulum</div>
-                                <div class="blog__tags">
-                                    <time datetime="2017-07-14"><a href="#" class="blog__dateLink"><i class="far fa-calendar-alt"></i>14.07.2017</a></time>
-                                    <a href="#" class="blog__categoryLink"><i class="far fa-file"></i>Development</a>
-                                </div>
-                                <div class="blog__articleTextPreview">
-                                    Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat...
-                                </div>
-                            </div>
-                        </div>
-                        <div class="blog__item">
-                            <div class="blog__articleBlock">
-                                <div class="blog__articleTitle">SEO Quis Vestibulum</div>
-                                <div class="blog__tags">
-                                   <time datetime="2017-07-14"><a href="#" class="blog__dateLink"><i class="far fa-calendar-alt"></i>14.07.2017</a></time>
-                                    <a href="#" class="blog__categoryLink"><i class="far fa-file"></i>Development</a>
-                                </div>
-                                <div class="blog__articleTextPreview">
-                                    Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat...
+            </section>
+            <section class="ourTeam">
+                <div class="container">
+                    <div class="ourTeam__column">
+                        <header class="ourTeam__text titleBlock">
+                            <h1 class="ourTeam__title title">Our Team Member</h1>
+                            <h2 class="ourTeam__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                veniam.
+                            </h2>
+                        </header>
+                        <div class="ourTeam__row">
+                            <div class="ourTeam__item">
+                                <div class="ourTeam__itemColumn">
+                                    <div class="ourTeam__fotoBlock">
+                                        <img class="ourTeam__foto" src="img/ourTeam/01.png" alt="Oops!">
+                                    </div>
+                                    <div class="ourTeam__info">
+                                        <div class="ourTeam__initials">John Doe</div>
+                                        <div class="ourTeam__position">General Manager</div>
+                                    </div>
+                                    <div class="ourTeam__socialMediasRow">
+                                        <div class="ourTeam__links">
+                                            <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
+                                                    class="fab fa-facebook-square ourTeam__facebookIcon ourTeam__links--activated"></i></span></a>
+                                            <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
+                                                    class="fab fa-twitter ourTeam__twitterIcon"></i></span></a>
+                                            <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
+                                                    class="fas fa-comments ourTeam__personalMessageIcon"></i></span></a>
+                                            <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
+                                                    class="fas fa-basketball-ball ourTeam__browseIcon"></i></span></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="blog__imageBlock">
-                                <img src="img/blog/02.png" alt="Oopps!" class="blog__image">
-                            </div>
-                        </div>
-                        <div class="blog__item">
-                            <div class="blog__imageBlock">
-                                <img src="img/blog/03.png" alt="Oopps!" class="blog__image">
-                            </div>
-                            <div class="blog__articleBlock">
-                                <div class="blog__articleTitle">SEO Quis Vestibulum</div>
-                                <div class="blog__tags">
-                                   <time datetime="2017-07-14"><a href="#" class="blog__dateLink"><i class="far fa-calendar-alt"></i>14.07.2017</a></time>
-                                    <a href="#" class="blog__categoryLink"><i class="far fa-file"></i>Development</a>
-                                </div>
-                                <div class="blog__articleTextPreview">
-                                    Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat...
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="blog__button"><a href="#" class="blog__buttonLink button__text">MORE VIEW</a></div>
-                </div>
-            </div>
-        </section>
-        <section class="contactUs">
-            <div class="contactUs__body">
-                <div class="contactUs__column">
-                    <header class="titleBlock contactUs__titleBlock">
-                        <h1 class="title contactUs__title">Contact Us</h1>
-                        <h2 class="subtitle contactUs__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
-                    </header>
-                    <div class="contactUs__infoRow">
-                        <div class="contactUs__item">
-                            <div class="contactUs__itemColumn">
-                                <div class="contactUs__itemIconBlock">
-                                    <img class="contactUs__itemIcon" src="img/contactUs/01.png">
-                                </div>
-                                <div class="contactUs__descriptionBlock">
-                                    <div class="contactUs__descriptionLine1 contactUs__location">Nobinagar savar,Dhaka</div>
-                                    <div class="contactUs__descriptionLine2 contactUs__country">Bangladesh</div>
+                            <div class="ourTeam__item">
+                                <div class="ourTeam__itemColumn">
+                                    <div class="ourTeam__fotoBlock">
+                                        <img class="ourTeam__foto" src="img/ourTeam/02.png" alt="Oops!">
+                                    </div>
+                                    <div class="ourTeam__info">
+                                        <div class="ourTeam__initials">Alexa Biru</div>
+                                        <div class="ourTeam__position">Office Director</div>
+                                    </div>
+                                    <div class="ourTeam__socialMediasRow">
+                                        <div class="ourTeam__links">
+                                            <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
+                                                    class="fab fa-facebook-square ourTeam__facebookIcon"></i></span></a>
+                                            <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
+                                                    class="fab fa-twitter ourTeam__twitterIcon"></i></span></a>
+                                            <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
+                                                    class="fas fa-comments ourTeam__personalMessageIcon"></i></span></a>
+                                            <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
+                                                    class="fas fa-basketball-ball ourTeam__browseIcon"></i></span></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="contactUs__item">
-                            <div class="contactUs__itemColumn">
-                                <div class="contactUs__itemIconBlock">
-                                    <img class="contactUs__itemIcon" src="img/contactUs/02.png">
-                                </div>
-                                <div class="contactUs__descriptionBlock">
-                                    <a href="tel:+8801743331996" class="contactUs__tel-link"><div class="contactUs__descriptionLine1 contactUs__phoneNumber1">+8801743331996</div></a>
-                                    <a href="tel:+8801928737807" class="contactUs__tel-link"><div class="contactUs__descriptionLine2 contactUs__phoneNumber2">+8801928737807</div></a>
+                            <div class="ourTeam__item">
+                                <div class="ourTeam__itemColumn">
+                                    <div class="ourTeam__fotoBlock">
+                                        <img class="ourTeam__foto" src="img/ourTeam/03.png" alt="Oops!">
+                                    </div>
+                                    <div class="ourTeam__info">
+                                        <div class="ourTeam__initials">Ronobir sing</div>
+                                        <div class="ourTeam__position">Admin</div>
+                                    </div>
+                                    <div class="ourTeam__socialMediasRow">
+                                        <div class="ourTeam__links">
+                                            <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
+                                                    class="fab fa-facebook-square ourTeam__facebookIcon"></i></span></a>
+                                            <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
+                                                    class="fab fa-twitter ourTeam__twitterIcon"></i></span></a>
+                                            <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
+                                                    class="fas fa-comments ourTeam__personalMessageIcon"></i></span></a>
+                                            <a href="#" class="ourTeam__directionLink"><span class="ourTeam__icon"><i
+                                                    class="fas fa-basketball-ball ourTeam__browseIcon"></i></span></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="contactUs__item">
-                            <div class="contactUs__itemColumn">
-                                <div class="contactUs__itemIconBlock">
-                                    <img class="contactUs__itemIcon" src="img/contactUs/03.png">
-                                </div>
-                                <div class="contactUs__descriptionBlock">
-                                    <a href="mailto:quickmasud@gmail.com" class="contactUs__email-link"><div class="contactUs__descriptionLine1 contactUs__email1">quickmasud@gmail.com</div></a>
-                                    <a href="mailto:quickmasud@gmail.com" class="contactUs__email-link"><div class="contactUs__descriptionLine2 contactUs__email2">quickmasud@yahoo.com</div></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contactUs__formRow">
-                        <form action="#" method="post" class="contactUs__form">
-                            <input type="text" name="input__name"  placeholder="Your NAME" class="contactUs__formInput contactUs__inputName">
-                            <input type="text" name="input__email" placeholder="Your Email" class="contactUs__formInput contactUs__inputEmail">
-                            <textarea name="textarea__messageArea" placeholder="Write Message" id="" cols="30" rows="10" class="contactUs__formInput contactUs__messageArea"></textarea>
-                            <input type="submit" value="SEND" class="button__text contactUs__submitButton">
-                        </form>
                     </div>
                 </div>
-            </div>
-        </section>
-    </div>
+            </section>
+            <section class="blog">
+                <div class="container">
+                    <div class="blog__column">
+                        <header class="blog__titleBlock titleBlock">
+                            <h1 class="blog__title title">Blog</h1>
+                            <h2 class="blog__subtitle subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit, sed do eiusmod tem
+                                por incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
+                        </header>
+                        <div class="blog__itemRow">
+                            <div class="blog__item">
+                                <div class="blog__imageBlock">
+                                    <img src="img/blog/01.png" alt="Oopps!" class="blog__image">
+                                </div>
+                                <div class="blog__articleBlock">
+                                    <div class="blog__articleTitle">SEO Quis Vestibulum</div>
+                                    <div class="blog__tags">
+                                        <time datetime="2017-07-14"><a href="#" class="blog__dateLink"><i
+                                                class="far fa-calendar-alt"></i>14.07.2017</a></time>
+                                        <a href="#" class="blog__categoryLink"><i
+                                                class="far fa-file"></i>Development</a>
+                                    </div>
+                                    <div class="blog__articleTextPreview">
+                                        Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                        laboris nisi ut aliquip ex ea commodo consequat...
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog__item">
+                                <div class="blog__articleBlock">
+                                    <div class="blog__articleTitle">SEO Quis Vestibulum</div>
+                                    <div class="blog__tags">
+                                        <time datetime="2017-07-14"><a href="#" class="blog__dateLink"><i
+                                                class="far fa-calendar-alt"></i>14.07.2017</a></time>
+                                        <a href="#" class="blog__categoryLink"><i
+                                                class="far fa-file"></i>Development</a>
+                                    </div>
+                                    <div class="blog__articleTextPreview">
+                                        Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                        laboris nisi ut aliquip ex ea commodo consequat...
+                                    </div>
+                                </div>
+                                <div class="blog__imageBlock">
+                                    <img src="img/blog/02.png" alt="Oopps!" class="blog__image">
+                                </div>
+                            </div>
+                            <div class="blog__item">
+                                <div class="blog__imageBlock">
+                                    <img src="img/blog/03.png" alt="Oopps!" class="blog__image">
+                                </div>
+                                <div class="blog__articleBlock">
+                                    <div class="blog__articleTitle">SEO Quis Vestibulum</div>
+                                    <div class="blog__tags">
+                                        <time datetime="2017-07-14"><a href="#" class="blog__dateLink"><i
+                                                class="far fa-calendar-alt"></i>14.07.2017</a></time>
+                                        <a href="#" class="blog__categoryLink"><i
+                                                class="far fa-file"></i>Development</a>
+                                    </div>
+                                    <div class="blog__articleTextPreview">
+                                        Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                        laboris nisi ut aliquip ex ea commodo consequat...
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog__button"><a href="#" class="blog__buttonLink button__text">MORE VIEW</a></div>
+                    </div>
+                </div>
+            </section>
+            <section class="contactUs">
+                <div class="contactUs__body">
+                    <div class="contactUs__column">
+                        <header class="titleBlock contactUs__titleBlock">
+                            <h1 class="title contactUs__title">Contact Us</h1>
+                            <h2 class="subtitle contactUs__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
+                        </header>
+                        <div class="contactUs__infoRow">
+                            <div class="contactUs__item">
+                                <div class="contactUs__itemColumn">
+                                    <div class="contactUs__itemIconBlock">
+                                        <img class="contactUs__itemIcon" src="img/contactUs/01.png">
+                                    </div>
+                                    <div class="contactUs__descriptionBlock">
+                                        <div class="contactUs__descriptionLine1 contactUs__location">Nobinagar
+                                            savar,Dhaka
+                                        </div>
+                                        <div class="contactUs__descriptionLine2 contactUs__country">Bangladesh</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contactUs__item">
+                                <div class="contactUs__itemColumn">
+                                    <div class="contactUs__itemIconBlock">
+                                        <img class="contactUs__itemIcon" src="img/contactUs/02.png">
+                                    </div>
+                                    <div class="contactUs__descriptionBlock">
+                                        <a href="tel:+8801743331996" class="contactUs__tel-link">
+                                            <div class="contactUs__descriptionLine1 contactUs__phoneNumber1">
+                                                +8801743331996
+                                            </div>
+                                        </a>
+                                        <a href="tel:+8801928737807" class="contactUs__tel-link">
+                                            <div class="contactUs__descriptionLine2 contactUs__phoneNumber2">
+                                                +8801928737807
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contactUs__item">
+                                <div class="contactUs__itemColumn">
+                                    <div class="contactUs__itemIconBlock">
+                                        <img class="contactUs__itemIcon" src="img/contactUs/03.png">
+                                    </div>
+                                    <div class="contactUs__descriptionBlock">
+                                        <a href="mailto:quickmasud@gmail.com" class="contactUs__email-link">
+                                            <div class="contactUs__descriptionLine1 contactUs__email1">
+                                                quickmasud@gmail.com
+                                            </div>
+                                        </a>
+                                        <a href="mailto:quickmasud@gmail.com" class="contactUs__email-link">
+                                            <div class="contactUs__descriptionLine2 contactUs__email2">
+                                                quickmasud@yahoo.com
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contactUs__formRow">
+                            <form action="#" method="post" class="contactUs__form">
+                                <input type="text" name="input__name" placeholder="Your NAME"
+                                       class="contactUs__formInput contactUs__inputName">
+                                <input type="text" name="input__email" placeholder="Your Email"
+                                       class="contactUs__formInput contactUs__inputEmail">
+                                <textarea name="textarea__messageArea" placeholder="Write Message" id="" cols="30"
+                                          rows="10" class="contactUs__formInput contactUs__messageArea"></textarea>
+                                <input type="submit" value="SEND" class="button__text contactUs__submitButton">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     <footer class="footer">
         <div class="container">
@@ -508,5 +563,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
